@@ -1,0 +1,7 @@
+.history*
+**__pycache__**
+.vscode/launch.json
+.vscode/**
+imdb.code-workspace
+docker-compose.debug.yml
+.env
