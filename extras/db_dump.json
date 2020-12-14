@@ -1,0 +1,236 @@
+[
+{
+    "model": "accounts.user",
+    "pk": 1,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$lVvvrPSg4QA5$WTrwwTHbJmv2vWITzVb+HOcuJLpPlAPdj8CWv0DjxQ0=",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "Awa",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-12-13T12:19:10.646Z",
+        "email": "awa@in.com",
+        "uuid": "b37a7682-06ac-40c2-a853-3cf388b5073a",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 2,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$BSxYw24Khmo6$8tpW6AEROgjWEwCsnTukVGALdTpLRZCBQctF61kH5lY=",
+        "last_login": null,
+        "is_superuser": true,
+        "first_name": "",
+        "last_name": "",
+        "is_staff": true,
+        "is_active": true,
+        "date_joined": "2020-12-13T12:46:23.259Z",
+        "email": "admin@in.com",
+        "uuid": "15e99e59-15d8-4cab-8e90-53fe2ef57d79",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "accounts.user",
+    "pk": 4,
+    "fields": {
+        "password": "pbkdf2_sha256$216000$Ack1Hmt6Eopt$K/vNKe7T8puaE8vRSWhHl4rOLDlJxoMJ19SdJuw98PM=",
+        "last_login": null,
+        "is_superuser": false,
+        "first_name": "John",
+        "last_name": "",
+        "is_staff": false,
+        "is_active": true,
+        "date_joined": "2020-12-14T15:32:49.225Z",
+        "email": "john@gmail.com",
+        "uuid": "6cefd5e7-425c-46e9-85a3-6ec07a9b536d",
+        "groups": [],
+        "user_permissions": []
+    }
+},
+{
+    "model": "contents.genre",
+    "pk": 1,
+    "fields": {
+        "uuid": "2991ea61-013d-41c6-a009-b341815136c2",
+        "name": "sci-fi"
+    }
+},
+{
+    "model": "contents.genre",
+    "pk": 2,
+    "fields": {
+        "uuid": "594293a7-f065-4ffc-b157-9c19492498be",
+        "name": "history"
+    }
+},
+{
+    "model": "contents.genre",
+    "pk": 3,
+    "fields": {
+        "uuid": "b3d4b893-905d-4cb5-8070-dbd0b8cea6d7",
+        "name": "comedy"
+    }
+},
+{
+    "model": "contents.genre",
+    "pk": 4,
+    "fields": {
+        "uuid": "3ff8b318-8ed0-4983-928e-6f497d99e5b0",
+        "name": "science"
+    }
+},
+{
+    "model": "contents.genre",
+    "pk": 5,
+    "fields": {
+        "uuid": "859f60ef-825d-47e4-ba53-549cabb3c7eb",
+        "name": "thriller"
+    }
+},
+{
+    "model": "contents.content",
+    "pk": 2,
+    "fields": {
+        "created": "2020-12-14T15:44:49.207Z",
+        "modified": "2020-12-14T15:44:49.207Z",
+        "uuid": "8c9da9ae-990d-48b5-b5d8-dcea3d13c5fb",
+        "name": "2001 : A Space Odyssey",
+        "content_type": "movie",
+        "genre": 1,
+        "created_by": "15e99e59-15d8-4cab-8e90-53fe2ef57d79"
+    }
+},
+{
+    "model": "contents.content",
+    "pk": 3,
+    "fields": {
+        "created": "2020-12-14T15:49:44.473Z",
+        "modified": "2020-12-14T15:49:44.473Z",
+        "uuid": "9f8e3e60-1c72-4de8-83f8-4979e1cf52b0",
+        "name": "The Birth of a Nation",
+        "content_type": "movie",
+        "genre": 2,
+        "created_by": "15e99e59-15d8-4cab-8e90-53fe2ef57d79"
+    }
+},
+{
+    "model": "contents.content",
+    "pk": 4,
+    "fields": {
+        "created": "2020-12-14T15:50:06.955Z",
+        "modified": "2020-12-14T15:50:06.955Z",
+        "uuid": "e1900149-6674-48c2-82f0-2a75e6b62e36",
+        "name": "The Office",
+        "content_type": "tv show",
+        "genre": 3,
+        "created_by": "15e99e59-15d8-4cab-8e90-53fe2ef57d79"
+    }
+},
+{
+    "model": "contents.content",
+    "pk": 5,
+    "fields": {
+        "created": "2020-12-14T15:50:57.109Z",
+        "modified": "2020-12-14T15:50:57.109Z",
+        "uuid": "aa5ccccc-5f01-46fa-9969-5f97eadf94cc",
+        "name": "Cosmos",
+        "content_type": "documentary",
+        "genre": 4,
+        "created_by": "15e99e59-15d8-4cab-8e90-53fe2ef57d79"
+    }
+},
+{
+    "model": "contents.content",
+    "pk": 6,
+    "fields": {
+        "created": "2020-12-14T16:41:30.196Z",
+        "modified": "2020-12-14T16:41:30.196Z",
+        "uuid": "f7cfbea2-5d65-4900-b559-4ee301df052e",
+        "name": "Vertigo",
+        "content_type": "movie",
+        "genre": 5,
+        "created_by": "15e99e59-15d8-4cab-8e90-53fe2ef57d79"
+    }
+},
+{
+    "model": "contents.comment",
+    "pk": 1,
+    "fields": {
+        "created": "2020-12-14T16:26:43.817Z",
+        "modified": "2020-12-14T16:26:43.817Z",
+        "uuid": "77e8e0f0-391d-4b48-9f8d-9ed41f13c5a8",
+        "text": "Great Movie",
+        "content": 2,
+        "user": 1,
+        "is_active": true
+    }
+},
+{
+    "model": "contents.comment",
+    "pk": 2,
+    "fields": {
+        "created": "2020-12-14T16:37:15.696Z",
+        "modified": "2020-12-14T16:37:15.696Z",
+        "uuid": "0579d26a-0509-4e87-9e90-ee755b8b2911",
+        "text": "awesome movie",
+        "content": 3,
+        "user": 1,
+        "is_active": true
+    }
+},
+{
+    "model": "contents.comment",
+    "pk": 3,
+    "fields": {
+        "created": "2020-12-14T16:44:25.423Z",
+        "modified": "2020-12-14T16:44:25.423Z",
+        "uuid": "0fbea008-5a41-4019-84b4-5b98ede8e1a9",
+        "text": "Okayish",
+        "content": 3,
+        "user": 2,
+        "is_active": true
+    }
+},
+{
+    "model": "contents.rating",
+    "pk": 1,
+    "fields": {
+        "created": "2020-12-14T16:33:48.203Z",
+        "modified": "2020-12-14T16:33:48.203Z",
+        "uuid": "d3d5d938-8da5-41a4-9d34-e6e5ec1f9524",
+        "rating": 9,
+        "content": 2,
+        "user": 1
+    }
+},
+{
+    "model": "contents.rating",
+    "pk": 2,
+    "fields": {
+        "created": "2020-12-14T16:37:15.700Z",
+        "modified": "2020-12-14T16:37:15.700Z",
+        "uuid": "b0c7cadb-0328-44b7-ba68-eee065a9b06e",
+        "rating": 8,
+        "content": 3,
+        "user": 1
+    }
+},
+{
+    "model": "contents.rating",
+    "pk": 3,
+    "fields": {
+        "created": "2020-12-14T16:44:25.425Z",
+        "modified": "2020-12-14T16:44:25.425Z",
+        "uuid": "c67e67f2-6e1a-4eea-ba2c-9176cb5a7ef5",
+        "rating": 5,
+        "content": 3,
+        "user": 2
+    }
+}
+]
